@@ -1118,3 +1118,179 @@ a {
 .topic-04 {
   background: linear-gradient(150deg, #e6ecef 0%, #f5f1ea 100%);
 }
+
+.layout-hero .hero-desc {
+  max-width: 480px;
+}
+
+.layout-01 {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.2) 100%),
+    repeating-linear-gradient(90deg, rgba(122, 144, 134, 0.14) 0 1px, transparent 1px 64px),
+    repeating-linear-gradient(0deg, rgba(122, 144, 134, 0.1) 0 1px, transparent 1px 36px),
+    linear-gradient(150deg, #e2e8e3 0%, #f7efe8 100%);
+}
+
+.layout-02 {
+  background:
+    linear-gradient(140deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100%),
+    radial-gradient(circle at 20% 25%, rgba(122, 144, 134, 0.25) 0 10px, transparent 11px),
+    linear-gradient(0deg, rgba(122, 144, 134, 0.12) 1px, transparent 1px),
+    linear-gradient(120deg, #e7e2db 0%, #f7f0ea 100%);
+  background-size: auto, auto, 100% 34px, auto;
+}
+
+.layout-03 {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.65) 0%, rgba(255, 255, 255, 0) 100%),
+    repeating-linear-gradient(0deg, rgba(122, 144, 134, 0.14) 0 1px, transparent 1px 30px),
+    repeating-linear-gradient(90deg, rgba(122, 144, 134, 0.1) 0 1px, transparent 1px 88px),
+    linear-gradient(150deg, #e5ece6 0%, #f7efe8 100%);
+}
+
+.layout-04 {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.2) 100%),
+    repeating-linear-gradient(90deg, rgba(122, 144, 134, 0.14) 0 1px, transparent 1px 48px),
+    repeating-linear-gradient(0deg, rgba(122, 144, 134, 0.1) 0 1px, transparent 1px 38px),
+    linear-gradient(140deg, #e7e5ed 0%, #f6efe7 100%);
+}
+
+.layout-thumb-01 {
+  background:
+    repeating-linear-gradient(90deg, rgba(122, 144, 134, 0.18) 0 1px, transparent 1px 48px),
+    linear-gradient(160deg, #e5ece8 0%, #f7f1ea 100%);
+}
+
+.layout-thumb-02 {
+  background:
+    repeating-linear-gradient(0deg, rgba(122, 144, 134, 0.16) 0 1px, transparent 1px 28px),
+    linear-gradient(160deg, #f0e7e2 0%, #f7f0ea 100%);
+}
+
+.layout-thumb-03 {
+  background:
+    radial-gradient(circle at 25% 25%, rgba(122, 144, 134, 0.2) 0 12px, transparent 13px),
+    linear-gradient(160deg, #e6e9f0 0%, #f6f1ea 100%);
+}
+
+.layout-thumb-04 {
+  background:
+    repeating-linear-gradient(90deg, rgba(122, 144, 134, 0.16) 0 1px, transparent 1px 36px),
+    repeating-linear-gradient(0deg, rgba(122, 144, 134, 0.12) 0 1px, transparent 1px 36px),
+    linear-gradient(160deg, #e7e2db 0%, #f6efe7 100%);
+}
+
+.layout-spec-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.layout-spec-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 12px 24px var(--shadow);
+  display: grid;
+  gap: 12px;
+}
+
+.layout-spec-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.spec-title {
+  font-family: "Shippori Mincho", serif;
+  font-size: 18px;
+}
+
+.spec-chips {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.spec-chips span {
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(246, 240, 233, 0.8);
+  color: var(--muted);
+}
+
+.layout-mock-01 {
+  background:
+    repeating-linear-gradient(0deg, rgba(122, 144, 134, 0.12) 0 1px, transparent 1px 26px),
+    linear-gradient(160deg, #e3eae5 0%, #f6efe7 100%);
+}
+
+.layout-mock-02 {
+  background:
+    repeating-linear-gradient(0deg, rgba(122, 144, 134, 0.12) 0 1px, transparent 1px 24px),
+    repeating-linear-gradient(90deg, rgba(122, 144, 134, 0.12) 0 1px, transparent 1px 70px),
+    linear-gradient(160deg, #efe5e0 0%, #f7f0ea 100%);
+}
+
+.layout-mock-03 {
+  background:
+    repeating-linear-gradient(0deg, rgba(122, 144, 134, 0.12) 0 1px, transparent 1px 30px),
+    repeating-linear-gradient(90deg, rgba(122, 144, 134, 0.12) 0 1px, transparent 1px 42px),
+    linear-gradient(160deg, #e5e4ef 0%, #f6efe8 100%);
+}
+
+.shop-hero .hero-desc {
+  max-width: 480px;
+}
+
+.shop-01 {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.2) 100%),
+    radial-gradient(circle at 20% 20%, rgba(122, 144, 134, 0.2) 0 10px, transparent 11px),
+    linear-gradient(150deg, #e4ece7 0%, #f7efe7 100%);
+}
+
+.shop-02 {
+  background:
+    linear-gradient(140deg, rgba(255, 255, 255, 0.65) 0%, rgba(255, 255, 255, 0.1) 100%),
+    repeating-linear-gradient(90deg, rgba(122, 144, 134, 0.12) 0 1px, transparent 1px 26px),
+    linear-gradient(150deg, #f0e4e0 0%, #f7efe8 100%);
+}
+
+.shop-03 {
+  background:
+    linear-gradient(150deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.2) 100%),
+    repeating-linear-gradient(0deg, rgba(122, 144, 134, 0.12) 0 1px, transparent 1px 28px),
+    linear-gradient(150deg, #e2e8ee 0%, #f6efe8 100%);
+}
+
+.shop-04 {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.25) 100%),
+    repeating-linear-gradient(90deg, rgba(122, 144, 134, 0.12) 0 1px, transparent 1px 40px),
+    repeating-linear-gradient(0deg, rgba(122, 144, 134, 0.12) 0 1px, transparent 1px 30px),
+    linear-gradient(150deg, #e8e1d9 0%, #f7efe7 100%);
+}
+
+.shop-thumb-01 {
+  background:
+    linear-gradient(160deg, #e2e9e4 0%, #f7f1ea 100%);
+}
+
+.shop-thumb-02 {
+  background:
+    linear-gradient(160deg, #efe3df 0%, #f7f0ea 100%);
+}
+
+.shop-thumb-03 {
+  background:
+    linear-gradient(160deg, #e3e7f0 0%, #f7f1ea 100%);
+}
+
+.shop-thumb-04 {
+  background:
+    linear-gradient(160deg, #e6e1d9 0%, #f7efe7 100%);
+}
